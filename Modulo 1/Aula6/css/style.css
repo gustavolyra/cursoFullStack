@@ -1,0 +1,10 @@
+body {
+  padding: 10px;
+  font-family: Arial;
+}
+
+.field {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}

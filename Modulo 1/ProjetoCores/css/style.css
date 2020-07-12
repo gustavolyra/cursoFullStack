@@ -1,0 +1,22 @@
+.sliderDiv {
+  width: 500px;
+}
+
+.sliderText {
+  text-align: left;
+}
+.slider {
+  text-align: center;
+  offset-position: center;
+}
+.statusSlider {
+  text-align: right;
+}
+.divColor {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+.author {
+  font-size: 12px;
+}
