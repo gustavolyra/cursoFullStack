@@ -1,0 +1,42 @@
+.other {
+  background-color: gray;
+  float: left;
+}
+
+.favorite {
+  background-color: lightblue;
+  float: left;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  display: inline;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.flag {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.otherCountries {
+  border-radius: 50;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
+.favoriteCountries {
+  border-radius: 50;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+}
