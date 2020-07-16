@@ -23,6 +23,7 @@ function doMap() {
 function doFilter() {
   const olderThan18 = people.results.filter((person) => {
     return person.dob.age >= 18;
+    person;
   });
   console.log(olderThan18);
 }

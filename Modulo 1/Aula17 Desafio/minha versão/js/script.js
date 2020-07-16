@@ -15,10 +15,7 @@ const getApiAsync = async () => {
   const res = await fetch('https://restcountries.eu/rest/v2/all');
   const json = await res.json().then((data) => {
     const list = doMap(data);
-    const orderList = list.sort((a, b) => {
-      return a.name - b.name;
-    });
-    makeForm(orderList);
+    makeForm(list);
   });
 };
 
@@ -72,7 +69,7 @@ const makeForm = (fullList) => {
       return button;
     }
 
-    function createSpan(name, index) {
+    function createSpan(name) {
       let span = document.createElement('span');
       span.textContent = name;
       return span;
@@ -87,7 +84,7 @@ const makeForm = (fullList) => {
       let li = document.createElement('li');
       let img = createImage(country.name, country.flag);
       let button = createFavoriteButton(country.name);
-      let spam = createSpan(country.name, i);
+      let spam = createSpan(country.name);
 
       li.appendChild(button);
       li.appendChild(img);
