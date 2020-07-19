@@ -6,3 +6,5 @@ Modulo 1/Enunciado do Trabalho Prático - Módulo 1 - Full Stack.pdf
 node_modules
 Other Projects/Weather Station/js/.env
 Other Projects/Weather Station/js/request.http
+Other Projects/Weather Station/Using City Country/js/request.http
+Other Projects/Weather Station/Using GeoLocation/js/request.http
