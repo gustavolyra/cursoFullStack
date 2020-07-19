@@ -1,0 +1,23 @@
+.img {
+  width: 30px;
+}
+
+.error_msg {
+  font-size: 18px;
+  font-style: bold;
+  color: red;
+}
+
+.text {
+  font-size: 18px;
+  color: rgb(47, 79, 75);
+}
+
+h1 {
+  font-family: Comic Sans MS;
+  color: rgb(47, 79, 79);
+}
+
+.form {
+  font-family: Comic Sans MS;
+}
