@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Modulo 1</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body id="body">
+    <div class="container">
+      <div class="status">
+        <label class="slider-text" for="sliderRed">(R) Vermelho:</label>
+        <input
+          type="range"
+          name="sliderRed"
+          min="0"
+          max="255"
+          class="slider"
+          id="sliderRed"
+        />
+        <input type="text" id="statusRed" class="status-slider" disabled />
+        <label for="sliderGreen">(G) Verde:</label>
+        <input
+          type="range"
+          name="sliderGreen"
+          min="0"
+          max="255"
+          class="slider"
+          id="sliderGreen"
+        />
+        <input type="text" id="statusGreen" class="status-slider" disabled />
+        <label for="sliderBlue">(B) Azul:</label>
+        <input
+          type="range"
+          name="sliderBlue"
+          min="0"
+          max="255"
+          class="slider"
+          id="sliderBlue"
+        />
+        <input type="text" id="statusBlue" class="status-slider" disabled />
+      </div>
+      <h2>BACKGROUND COLOR: <span class="color">#F1F5F8</span></h2>
+      <button class="btn btn-hero" id="btn">Random Color</button>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
