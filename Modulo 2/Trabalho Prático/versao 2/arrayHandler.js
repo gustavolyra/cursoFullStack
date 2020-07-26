@@ -23,16 +23,31 @@ export const doFilterCitiesInState = (dataCities, idState) => {
   return found;
 };
 
+export const bigCity = (list) => {
+  var byData = list.slice(0);
+  const big = biggestCityName(byData);
+  const filtered = doFilterByLength(byData, big.NomeLength);
+  const valid = validList(filtered);
+  return valid[0];
+};
+export const smallCity = (list) => {
+  var byData = list.slice(0);
+  const small = smallestCityName(byData);
+  const filtered = doFilterByLength(byData, small.NomeLength);
+  const valid = validList(filtered);
+  return valid[0];
+};
+
 //retorna a cidade de maior nome da lista
 export const biggestCityName = (list) => {
   var byData = list.slice(0); //faz uma copia da lista
   const sortList = byData.sort((a, b) => b.NomeLength - a.NomeLength);
-  return byData[0];
+  return sortList[0];
 };
 export const smallestCityName = (list) => {
   var byData = list.slice(0); //faz uma copia da lista
   const sortList = byData.sort((a, b) => a.NomeLength - b.NomeLength);
-  return byData[0];
+  return sortList[0];
 };
 
 //5 estados com maior número de cidades
@@ -45,7 +60,6 @@ export const getTop5 = (list) => {
   }
   return listTop5;
 };
-
 export const getBottom5 = (list) => {
   var byData = list.slice(0); //faz uma copia da lista
   const sortList = byData.sort((a, b) => a.numero - b.numero);

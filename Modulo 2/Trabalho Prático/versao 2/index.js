@@ -13,6 +13,8 @@ import {
   biggestCityName,
   doFilterByLength,
   validList,
+  bigCity,
+  smallCity,
 } from './arrayHandler.js';
 
 const filePathState = './jsonBase/Estados.json';
@@ -52,9 +54,9 @@ async function main() {
     const file = await readJsonFile(dataStates[state].Sigla);
     const json = JSON.parse(file);
 
-    const bigName = biggestCityName(json);
+    const bigName = bigCity(json);
     listBiggestCitiesName.push(bigName);
-    const smallName = smallestCityName(json);
+    const smallName = smallCity(json);
     listSmallestCitiesName.push(smallName);
   }
 
@@ -74,7 +76,6 @@ async function main() {
 const validBiggestName = (list) => {
   var byData = list.slice(0); //faz uma copia da lista
   const biggestName = biggestCityName(byData);
-  console.log(biggestName);
   let listMap = doFilterByLength(list, biggestName.NomeLength);
   const final = validList(listMap);
   return final;
@@ -96,7 +97,6 @@ const step4 = async (list) => {
   writeAnswer('4', bottomList);
 };
 const step5 = (list) => {
-  console.log(list);
   const listInfo = getInfo(list);
   writeAnswer('5', listInfo);
 };
@@ -106,8 +106,8 @@ const step6 = (list) => {
 };
 const step7 = (list) => {
   const answer = validBiggestName(list);
-  //const info = getInfo(answer);
-  //writeAnswer('7', info);
+  const info = getInfo(answer);
+  writeAnswer('7', info);
 };
 const step8 = (list) => {
   const answer = validSmallestName(list);

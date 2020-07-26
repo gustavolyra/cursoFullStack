@@ -16,6 +16,7 @@ export const createJsonUF = async (id, sigla, dataCities) => {
   const formatJson = await doMapUF(found, sigla);
   return formatJson;
 };
+
 export const createFile = async (id, sigla, dataCities) => {
   const createFileUF = async (sigla, json) => {
     let filePath = path + sigla + '.json';
