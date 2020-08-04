@@ -1,0 +1,35 @@
+2020-07-29T21:38:35.645Z [grades] error: Student, Subject, Type and value são obrigatórios
+2020-07-29T22:08:59.276Z [grades] error: Student, Subject, Type and value são obrigatórios
+2020-07-29T22:10:55.321Z [grades] error: Cannot set headers after they are sent to the client
+2020-07-29T22:12:29.926Z [grades] error: Cannot set headers after they are sent to the client
+2020-07-29T22:36:24.941Z [grades] error: Student, Subject, Type and value são obrigatórios e ID >= 0
+2020-07-29T22:36:57.905Z [grades] error: readFile is not defined
+2020-07-29T22:40:44.944Z [grades] error: json.grades.length is not a function
+2020-07-29T23:58:12.500Z [grades] error: ID >= 0
+2020-07-29T23:58:38.868Z [grades] error: ID >= 0
+2020-07-29T23:59:51.740Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T00:05:43.069Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T00:05:50.819Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T00:06:16.114Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T01:14:55.367Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T01:16:03.146Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T01:16:26.069Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T01:16:35.454Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T01:17:43.405Z [grades] error: found is not defined
+2020-07-30T01:34:18.479Z [grades] error: type is not defined
+2020-07-30T01:36:13.247Z [grades] error: type is not defined
+2020-07-30T01:36:29.720Z [grades] error: type is not defined
+2020-07-30T01:36:31.526Z [grades] error: type is not defined
+2020-07-30T01:36:32.197Z [grades] error: type is not defined
+2020-07-30T01:36:32.441Z [grades] error: type is not defined
+2020-07-30T01:36:32.607Z [grades] error: type is not defined
+2020-07-30T01:36:32.807Z [grades] error: type is not defined
+2020-07-30T01:36:32.998Z [grades] error: type is not defined
+2020-07-30T01:36:33.173Z [grades] error: type is not defined
+2020-07-30T01:36:33.354Z [grades] error: type is not defined
+2020-07-30T01:37:05.560Z [grades] error: Cannot access 'msg' before initialization
+2020-07-30T01:37:14.991Z [grades] error: type is not defined
+2020-07-30T01:37:53.955Z [grades] error: type is not defined
+2020-07-30T01:38:26.957Z [grades] error: type is not defined
+2020-07-30T01:38:45.795Z [grades] error: type is not defined
+2020-07-30T01:38:59.901Z [grades] error: type is not defined

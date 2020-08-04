@@ -1,0 +1,243 @@
+2020-07-29T17:20:28.843Z [my-bank-api] info: api started !
+2020-07-29T17:26:08.562Z [my-bank-api] info: api started !
+2020-07-29T17:30:54.778Z [my-bank-api] info: api started !
+2020-07-29T17:31:21.206Z [my-bank-api] info: api started !
+2020-07-29T17:31:57.583Z [my-bank-api] info: api started !
+2020-07-29T17:32:10.455Z [my-bank-api] info: api started !
+2020-07-29T17:40:49.273Z [my-bank-api] info: api started !
+2020-07-29T18:32:05.512Z [my-bank-api] info: api started !
+2020-07-29T18:32:58.941Z [my-bank-api] info: GET request
+2020-07-29T18:33:17.879Z [my-bank-api] info: api started !
+2020-07-29T18:33:19.080Z [my-bank-api] info: GET request
+2020-07-29T18:36:28.310Z [my-bank-api] info: api started !
+2020-07-29T18:36:34.247Z [my-bank-api] info: GET request
+2020-07-29T19:30:09.815Z [my-bank-api] info: api started !
+2020-07-29T19:31:13.397Z [my-bank-api] info: GET request
+2020-07-29T20:41:39.163Z [grades] info: api started !
+2020-07-29T20:50:56.019Z [grades] info: api started !
+2020-07-29T20:50:59.825Z [grades] info: api started !
+2020-07-29T20:51:49.181Z [grades] info: api started !
+2020-07-29T20:52:08.157Z [grades] info: api started !
+2020-07-29T20:53:56.382Z [grades] info: api started !
+2020-07-29T20:54:59.401Z [grades] info: api started !
+2020-07-29T20:55:09.900Z [grades] info: api started !
+2020-07-29T20:55:53.268Z [grades] info: api started !
+2020-07-29T20:57:30.709Z [grades] info: api started !
+2020-07-29T21:19:43.710Z [grades] info: api started !
+2020-07-29T21:19:46.765Z [grades] info: api started !
+2020-07-29T21:21:21.526Z [grades] info: api started !
+2020-07-29T21:22:17.937Z [grades] info: api started !
+2020-07-29T21:23:04.997Z [grades] info: api started !
+2020-07-29T21:23:14.538Z [grades] info: api started !
+2020-07-29T21:23:23.407Z [grades] info: api started !
+2020-07-29T21:23:50.843Z [grades] info: api started !
+2020-07-29T21:24:17.486Z [grades] info: api started !
+2020-07-29T21:24:55.280Z [grades] info: api started !
+2020-07-29T21:26:34.483Z [grades] info: api started !
+2020-07-29T21:27:09.268Z [grades] info: api started !
+2020-07-29T21:29:17.624Z [grades] info: api started !
+2020-07-29T21:29:25.404Z [grades] info: api started !
+2020-07-29T21:30:00.794Z [grades] info: api started !
+2020-07-29T21:30:22.780Z [grades] info: api started !
+2020-07-29T21:30:55.658Z [grades] info: api started !
+2020-07-29T21:31:45.924Z [grades] info: api started !
+2020-07-29T21:31:50.130Z [grades] info: api started !
+2020-07-29T21:33:03.709Z [grades] info: api started !
+2020-07-29T21:33:15.864Z [grades] info: api started !
+2020-07-29T21:33:52.944Z [grades] info: api started !
+2020-07-29T21:33:55.987Z [grades] info: api started !
+2020-07-29T21:34:22.567Z [grades] info: api started !
+2020-07-29T21:35:18.734Z [grades] info: api started !
+2020-07-29T21:35:24.320Z [grades] info: api started !
+2020-07-29T21:35:26.167Z [grades] info: api started !
+2020-07-29T21:35:45.141Z [grades] info: api started !
+2020-07-29T21:37:18.583Z [grades] info: api started !
+2020-07-29T21:38:23.657Z [grades] info: api started !
+2020-07-29T21:38:35.645Z [grades] error: Student, Subject, Type and value são obrigatórios
+2020-07-29T21:53:06.963Z [grades] info: api started !
+2020-07-29T21:53:19.125Z [grades] info: GET request
+2020-07-29T22:02:51.137Z [grades] info: api started !
+2020-07-29T22:06:00.300Z [grades] info: api started !
+2020-07-29T22:07:20.202Z [grades] info: api started !
+2020-07-29T22:08:49.653Z [grades] info: api started !
+2020-07-29T22:08:59.276Z [grades] error: Student, Subject, Type and value são obrigatórios
+2020-07-29T22:10:44.363Z [grades] info: api started !
+2020-07-29T22:10:55.321Z [grades] error: Cannot set headers after they are sent to the client
+2020-07-29T22:10:56.101Z [grades] info: api started !
+2020-07-29T22:11:06.433Z [grades] info: api started !
+2020-07-29T22:12:15.039Z [grades] info: api started !
+2020-07-29T22:12:29.926Z [grades] error: Cannot set headers after they are sent to the client
+2020-07-29T22:12:30.768Z [grades] info: api started !
+2020-07-29T22:12:38.877Z [grades] info: api started !
+2020-07-29T22:13:35.027Z [grades] info: api started !
+2020-07-29T22:13:39.369Z [grades] info: api started !
+2020-07-29T22:13:48.128Z [grades] info: api started !
+2020-07-29T22:14:36.376Z [grades] info: api started !
+2020-07-29T22:15:55.007Z [grades] info: api started !
+2020-07-29T22:16:23.859Z [grades] info: api started !
+2020-07-29T22:16:28.322Z [grades] info: api started !
+2020-07-29T22:16:55.998Z [grades] info: api started !
+2020-07-29T22:17:21.213Z [grades] info: api started !
+2020-07-29T22:17:29.258Z [grades] info: api started !
+2020-07-29T22:18:09.552Z [grades] info: api started !
+2020-07-29T22:18:42.866Z [grades] info: api started !
+2020-07-29T22:19:12.026Z [grades] info: api started !
+2020-07-29T22:19:33.201Z [grades] info: api started !
+2020-07-29T22:24:10.956Z [grades] info: api started !
+2020-07-29T22:36:10.911Z [grades] info: api started !
+2020-07-29T22:36:24.941Z [grades] error: Student, Subject, Type and value são obrigatórios e ID >= 0
+2020-07-29T22:36:40.284Z [grades] info: api started !
+2020-07-29T22:36:57.905Z [grades] error: readFile is not defined
+2020-07-29T22:38:43.105Z [grades] info: api started !
+2020-07-29T22:38:49.627Z [grades] info: api started !
+2020-07-29T22:39:19.812Z [grades] info: api started !
+2020-07-29T22:39:29.517Z [grades] info: api started !
+2020-07-29T22:39:58.552Z [grades] info: api started !
+2020-07-29T22:40:05.525Z [grades] info: api started !
+2020-07-29T22:40:37.329Z [grades] info: api started !
+2020-07-29T22:40:44.944Z [grades] error: json.grades.length is not a function
+2020-07-29T22:41:07.331Z [grades] info: api started !
+2020-07-29T22:41:14.716Z [grades] info: api started !
+2020-07-29T22:41:21.736Z [grades] info: api started !
+2020-07-29T22:47:56.549Z [grades] info: api started !
+2020-07-29T22:48:15.612Z [grades] info: api started !
+2020-07-29T22:55:13.568Z [grades] info: api started !
+2020-07-29T22:55:58.645Z [grades] info: api started !
+2020-07-29T23:43:27.092Z [grades] info: api started !
+2020-07-29T23:45:20.357Z [grades] info: api started !
+2020-07-29T23:45:51.878Z [grades] info: api started !
+2020-07-29T23:46:23.547Z [grades] info: api started !
+2020-07-29T23:47:01.846Z [grades] info: api started !
+2020-07-29T23:47:27.308Z [grades] info: api started !
+2020-07-29T23:50:47.334Z [grades] info: api started !
+2020-07-29T23:51:26.989Z [grades] info: api started !
+2020-07-29T23:52:55.891Z [grades] info: api started !
+2020-07-29T23:53:44.738Z [grades] info: api started !
+2020-07-29T23:53:57.241Z [grades] info: api started !
+2020-07-29T23:55:33.149Z [grades] info: api started !
+2020-07-29T23:56:37.199Z [grades] info: api started !
+2020-07-29T23:56:49.506Z [grades] info: api started !
+2020-07-29T23:57:17.875Z [grades] info: api started !
+2020-07-29T23:57:20.002Z [grades] info: api started !
+2020-07-29T23:58:12.500Z [grades] error: ID >= 0
+2020-07-29T23:58:38.868Z [grades] error: ID >= 0
+2020-07-29T23:59:48.997Z [grades] info: api started !
+2020-07-29T23:59:51.740Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T00:01:12.075Z [grades] info: api started !
+2020-07-30T00:01:43.911Z [grades] info: api started !
+2020-07-30T00:02:17.939Z [grades] info: api started !
+2020-07-30T00:03:17.403Z [grades] info: api started !
+2020-07-30T00:04:17.172Z [grades] info: api started !
+2020-07-30T00:04:29.037Z [grades] info: api started !
+2020-07-30T00:05:35.451Z [grades] info: api started !
+2020-07-30T00:05:43.069Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T00:05:50.819Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T00:06:14.389Z [grades] info: api started !
+2020-07-30T00:06:16.114Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T00:06:25.089Z [grades] info: api started !
+2020-07-30T00:06:54.011Z [grades] info: api started !
+2020-07-30T00:08:26.523Z [grades] info: api started !
+2020-07-30T00:08:45.542Z [grades] info: api started !
+2020-07-30T00:09:17.846Z [grades] info: api started !
+2020-07-30T00:09:26.324Z [grades] info: api started !
+2020-07-30T00:09:31.982Z [grades] info: api started !
+2020-07-30T00:09:46.216Z [grades] info: api started !
+2020-07-30T00:10:16.231Z [grades] info: api started !
+2020-07-30T00:10:30.592Z [grades] info: api started !
+2020-07-30T00:10:56.727Z [grades] info: api started !
+2020-07-30T00:11:34.152Z [grades] info: api started !
+2020-07-30T00:11:58.220Z [grades] info: api started !
+2020-07-30T00:12:04.144Z [grades] info: api started !
+2020-07-30T00:34:48.696Z [grades] info: api started !
+2020-07-30T00:37:00.285Z [grades] info: api started !
+2020-07-30T00:37:11.171Z [grades] info: api started !
+2020-07-30T00:37:20.712Z [grades] info: api started !
+2020-07-30T01:14:49.818Z [grades] info: api started !
+2020-07-30T01:14:55.367Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T01:16:00.939Z [grades] info: api started !
+2020-07-30T01:16:03.146Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T01:16:23.843Z [grades] info: api started !
+2020-07-30T01:16:26.069Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T01:16:33.673Z [grades] info: api started !
+2020-07-30T01:16:35.454Z [grades] error: Cannot read property 'filter' of undefined
+2020-07-30T01:16:49.013Z [grades] info: api started !
+2020-07-30T01:16:51.335Z [grades] info: api started !
+2020-07-30T01:17:06.444Z [grades] info: api started !
+2020-07-30T01:17:21.335Z [grades] info: api started !
+2020-07-30T01:17:36.405Z [grades] info: api started !
+2020-07-30T01:17:41.805Z [grades] info: api started !
+2020-07-30T01:17:43.405Z [grades] error: found is not defined
+2020-07-30T01:18:22.967Z [grades] info: api started !
+2020-07-30T01:18:29.998Z [grades] info: api started !
+2020-07-30T01:19:11.336Z [grades] info: api started !
+2020-07-30T01:19:26.837Z [grades] info: api started !
+2020-07-30T01:20:02.522Z [grades] info: api started !
+2020-07-30T01:28:04.023Z [grades] info: api started !
+2020-07-30T01:29:18.823Z [grades] info: api started !
+2020-07-30T01:29:31.783Z [grades] info: api started !
+2020-07-30T01:29:42.381Z [grades] info: api started !
+2020-07-30T01:30:35.439Z [grades] info: api started !
+2020-07-30T01:30:58.968Z [grades] info: api started !
+2020-07-30T01:33:43.857Z [grades] info: api started !
+2020-07-30T01:33:58.387Z [grades] info: api started !
+2020-07-30T01:34:15.415Z [grades] info: api started !
+2020-07-30T01:34:18.479Z [grades] error: type is not defined
+2020-07-30T01:35:59.790Z [grades] info: api started !
+2020-07-30T01:36:11.085Z [grades] info: api started !
+2020-07-30T01:36:13.247Z [grades] error: type is not defined
+2020-07-30T01:36:22.630Z [grades] info: api started !
+2020-07-30T01:36:29.720Z [grades] error: type is not defined
+2020-07-30T01:36:31.526Z [grades] error: type is not defined
+2020-07-30T01:36:32.197Z [grades] error: type is not defined
+2020-07-30T01:36:32.441Z [grades] error: type is not defined
+2020-07-30T01:36:32.607Z [grades] error: type is not defined
+2020-07-30T01:36:32.807Z [grades] error: type is not defined
+2020-07-30T01:36:32.998Z [grades] error: type is not defined
+2020-07-30T01:36:33.173Z [grades] error: type is not defined
+2020-07-30T01:36:33.354Z [grades] error: type is not defined
+2020-07-30T01:37:04.148Z [grades] info: api started !
+2020-07-30T01:37:05.560Z [grades] error: Cannot access 'msg' before initialization
+2020-07-30T01:37:13.807Z [grades] info: api started !
+2020-07-30T01:37:14.991Z [grades] error: type is not defined
+2020-07-30T01:37:35.970Z [grades] info: api started !
+2020-07-30T01:37:53.955Z [grades] error: type is not defined
+2020-07-30T01:38:15.581Z [grades] info: api started !
+2020-07-30T01:38:26.957Z [grades] error: type is not defined
+2020-07-30T01:38:43.291Z [grades] info: api started !
+2020-07-30T01:38:45.795Z [grades] error: type is not defined
+2020-07-30T01:38:57.778Z [grades] info: api started !
+2020-07-30T01:38:59.901Z [grades] error: type is not defined
+2020-07-30T01:39:28.045Z [grades] info: api started !
+2020-07-30T01:40:12.512Z [grades] info: api started !
+2020-07-30T01:44:17.604Z [grades] info: api started !
+2020-07-30T01:46:01.338Z [grades] info: api started !
+2020-07-30T01:51:06.536Z [grades] info: api started !
+2020-07-30T01:53:29.533Z [grades] info: api started !
+2020-07-30T01:54:09.586Z [grades] info: api started !
+2020-07-30T01:55:13.880Z [grades] info: api started !
+2020-07-30T03:04:35.565Z [grades] info: api started !
+2020-07-30T03:05:07.091Z [grades] info: api started !
+2020-07-30T04:22:58.578Z [grades] info: api started !
+2020-07-30T04:23:23.271Z [grades] info: api started !
+2020-07-30T04:24:43.222Z [grades] info: api started !
+2020-07-30T04:25:54.424Z [grades] info: api started !
+2020-07-30T04:25:57.663Z [grades] info: api started !
+2020-07-30T04:26:32.083Z [grades] info: api started !
+2020-07-30T04:27:32.659Z [grades] info: api started !
+2020-07-30T04:28:25.217Z [grades] info: api started !
+2020-07-30T04:28:32.216Z [grades] info: api started !
+2020-07-30T04:31:02.796Z [grades] info: api started !
+2020-07-30T04:31:04.142Z [grades] info: api started !
+2020-07-30T04:34:38.270Z [grades] info: api started !
+2020-07-30T04:40:08.873Z [grades] info: api started !
+2020-07-30T14:21:32.064Z [grades] info: api started !
+2020-07-30T14:22:05.866Z [grades] info: api started !
+2020-07-30T14:23:17.025Z [grades] info: api started !
+2020-07-30T14:23:32.536Z [grades] info: api started !
+2020-07-30T14:25:26.202Z [grades] info: api started !
+2020-07-30T14:25:42.877Z [grades] info: api started !
+2020-07-30T14:29:40.845Z [grades] info: api started !
+2020-07-30T14:32:38.642Z [grades] info: api started !
+2020-07-30T17:06:27.743Z [grades] info: api started !
+2020-07-30T17:07:54.406Z [grades] info: api started !
+2020-07-30T23:36:44.858Z [grades] info: api started !

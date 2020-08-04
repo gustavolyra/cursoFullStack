@@ -64,9 +64,10 @@ export const getBottom5 = (list) => {
   var byData = list.slice(0); //faz uma copia da lista
   const sortList = byData.sort((a, b) => a.numero - b.numero);
   let listBottom5 = [];
-  for (let i = 0; i < 5; i++) {
+  for (let i = 4; i > -1; i--) {
     listBottom5.push(byData[i].info);
   }
+
   return listBottom5;
 };
 
