@@ -32,8 +32,8 @@ export default class ControlBody extends Component {
       percentageIRPF,
     } = taxValues;
 
-    const sizeBar2 = parseInt(percentageINSS);
-    const sizeBar1 = parseInt(percentageIRPF) + sizeBar2;
+    const sizeBar2 = parseFloat(percentageINSS);
+    const sizeBar1 = parseFloat(percentageIRPF) + sizeBar2;
 
     return (
       <div className="card-panel teal lighten-4">
