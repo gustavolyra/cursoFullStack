@@ -36,42 +36,42 @@ export default class ControlBody extends Component {
     const sizeBar1 = parseInt(percentageIRPF) + sizeBar2;
 
     return (
-      <div>
+      <div className="card-panel teal lighten-4">
         <InputBar onFilterChange={this.handleChange} value={salary} />
         <div className="row">
           <div className="col l3 m4 s6">
             <InfoBar
               value={baseINSS}
               text={'Base INSS'}
-              className={css.defaultText}
+              cssClass={css.defaultText}
             />
           </div>
           <div className="col l3 m4 s6">
             <InfoBar
               value={discountINSS}
               text={'Desconto INSS'}
-              className={css.discountINSS}
+              cssClass={css.discountINSS}
             />
           </div>
           <div className="col l3 m4 s6">
             <InfoBar
               value={baseIRPF}
               text={'Base IRPF'}
-              className={css.defaultText}
+              cssClass={css.defaultText}
             />
           </div>
           <div className="col l3 m4 s6">
             <InfoBar
               value={discountIRPF}
               text={'Desconto IRPF'}
-              className={css.discountIRPF}
+              cssClass={css.discountIRPF}
             />
           </div>
           <div className="col l3 m4 s6">
             <InfoBar
               value={netSalary}
               text={'Salário Líquido'}
-              className={css.netSalary}
+              cssClass={css.netSalary}
             />
           </div>
         </div>

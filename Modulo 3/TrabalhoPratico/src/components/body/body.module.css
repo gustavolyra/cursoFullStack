@@ -5,6 +5,9 @@
 .discountINSS {
   color: #e67e22;
 }
+.discountINSS input {
+  color: #e67e22;
+}
 
 .discountIRPF {
   color: #c0392b;
