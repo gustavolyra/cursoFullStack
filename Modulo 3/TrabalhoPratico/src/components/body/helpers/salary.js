@@ -107,7 +107,7 @@ function percentageValues(fullSalary) {
       discountIRPF,
       netSalary,
     } = taxValues;
-    // perc = ((pEarned/pPos) * 100).toFixed(3);
+
     const discountINSSPercentage = ((discountINSS / baseINSS) * 100).toFixed(2);
     const discountIRPFPercentage = ((discountIRPF / baseIRPF) * 100).toFixed(2);
     const netSalaryPercentage = ((netSalary / baseINSS) * 100).toFixed(2);

@@ -34,12 +34,7 @@ export default class ControlBody extends Component {
 
     const sizeBar2 = parseInt(percentageINSS);
     const sizeBar1 = parseInt(percentageIRPF) + sizeBar2;
-    console.log(typeof sizeBar2);
-    console.log(typeof sizeBar1);
-    console.log('bar1');
-    console.log(sizeBar1);
-    console.log('bar2');
-    console.log(sizeBar2);
+
     return (
       <div>
         <InputBar onFilterChange={this.handleChange} value={salary} />
