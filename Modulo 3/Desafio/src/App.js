@@ -56,7 +56,11 @@ export default class App extends Component {
     return (
       <div className="container">
         <h1>React Countries</h1>
-        <Header filter={filter} onChangeFilter={this.handleChangeFilter} />
+        <Header
+          filter={filter}
+          countryCount={filteredCountries.length}
+          onChangeFilter={this.handleChangeFilter}
+        />
         <Countries countries={filteredCountries} />
       </div>
     );

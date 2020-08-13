@@ -1,0 +1,7 @@
+.header {
+  font-family: 'Lato';
+  color: rgb(70, 46, 102);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
