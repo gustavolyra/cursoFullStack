@@ -126,6 +126,7 @@ function percentageValues(fullSalary) {
 
     return percentageValuesFromSalary;
   } else {
+<<<<<<< HEAD
     const percentageValuesFromSalary = {
       baseINSS: formatNumber(fullSalary),
       baseIRPF: 0,
@@ -136,8 +137,25 @@ function percentageValues(fullSalary) {
       percentageIRPF: 0,
     };
 
+=======
+    const percentageValuesFromSalary = resetObjectSalary(fullSalary);
+>>>>>>> e0a359ab0c0a37fe6e614fffc43fdf27ce49e6ab
     return percentageValuesFromSalary;
   }
+}
+
+function resetObjectSalary(fullSalary) {
+  const zeroFormatted = formatNumber(0);
+  const percentageValuesFromSalary = {
+    baseINSS: formatNumber(fullSalary),
+    baseIRPF: zeroFormatted,
+    discountINSS: zeroFormatted,
+    discountIRPF: zeroFormatted,
+    netSalary: formatNumber(fullSalary),
+    percentageINSS: 0,
+    percentageIRPF: 0,
+  };
+  return percentageValuesFromSalary;
 }
 
 function formatNumber(value) {

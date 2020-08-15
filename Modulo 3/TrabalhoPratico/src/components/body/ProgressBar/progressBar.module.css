@@ -2,6 +2,7 @@
   width: 100%;
   background-color: #ddd;
   position: relative;
+  top: -9px;
 }
 
 .fullBar {
