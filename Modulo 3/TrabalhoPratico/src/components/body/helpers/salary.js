@@ -111,6 +111,7 @@ function percentageValues(fullSalary) {
     const discountINSSPercentage = ((discountINSS / baseINSS) * 100).toFixed(2);
     const discountIRPFPercentage = ((discountIRPF / baseIRPF) * 100).toFixed(2);
     const netSalaryPercentage = ((netSalary / baseINSS) * 100).toFixed(2);
+
     const percentageValuesFromSalary = {
       baseINSS: formatNumber(baseINSS),
       discountINSS:
@@ -122,6 +123,7 @@ function percentageValues(fullSalary) {
       percentageINSS: discountINSSPercentage,
       percentageIRPF: discountIRPFPercentage,
     };
+
     return percentageValuesFromSalary;
   } else {
     const percentageValuesFromSalary = {
@@ -133,6 +135,7 @@ function percentageValues(fullSalary) {
       percentageINSS: 0,
       percentageIRPF: 0,
     };
+
     return percentageValuesFromSalary;
   }
 }
