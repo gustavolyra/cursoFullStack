@@ -19,7 +19,8 @@ function calc(principal, ratePercentage, time) {
       time: x + 1,
     });
   }
-  console.log(answer);
+
+  return answer;
 }
 
 function formatCurrency(number) {

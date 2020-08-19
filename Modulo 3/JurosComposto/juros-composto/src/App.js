@@ -2,23 +2,23 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import { calc } from './helpers/calcCompoundInterest';
 import Form from './components/Form';
+import Installments from './components/Installments';
 
 function App() {
-  const [amount, setAmount] = useState(0);
-  const [rate, setRate] = useState(0);
-  const [time, setTime] = useState(0);
+  const [amount, setAmount] = useState(1);
+  const [rate, setRate] = useState(1);
+  const [time, setTime] = useState(1);
   const [compoundInterest, setCompoundInterest] = useState([]);
 
   useEffect(() => {
     const calcCompound = () => {
-      if (amount > 0 && rate > 0 && time > 0) {
-        const newValues = calc(amount, rate, time);
+      if (amount > 0 && rate !== 0 && time > 0) {
+        let newValues = calc(amount, rate, time);
         setCompoundInterest(newValues);
-        console.log(compoundInterest);
       }
     };
     calcCompound();
-  }, [amount, rate, time, compoundInterest]);
+  }, [amount, rate, time]);
 
   const handleChangeInput = (newAmount, newRate, newTime) => {
     setAmount(newAmount);
@@ -37,7 +37,7 @@ function App() {
           compoundInterest={compoundInterest}
           onChange={handleChangeInput}
         />
-        <button className="waves-effect waves-light btn"></button>
+        <Installments installments={compoundInterest} />
       </div>
     </div>
   );

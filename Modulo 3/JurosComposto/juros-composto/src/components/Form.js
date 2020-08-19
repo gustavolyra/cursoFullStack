@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Form(props) {
-  const { amount, rate, time, compoundInterest, onChange } = props;
+  const { amount, rate, time, onChange } = props;
 
   const handleChangeAmount = (event) => {
     const value = event.target.value;
@@ -17,20 +17,36 @@ export default function Form(props) {
   };
 
   return (
-    <div>
-      <span for="amount">Amount</span>
-      <input
-        id="amount"
-        type="number"
-        value={amount}
-        onChange={handleChangeAmount}
-      />
+    <div className="row">
+      <div className="col s12 m4">
+        <span htmlFor="amount">Amount</span>
+        <input
+          id="amount"
+          type="number"
+          value={amount}
+          onChange={handleChangeAmount}
+        />
+      </div>
 
-      <span for="rate">Rate</span>
-      <input id="rate" type="number" value={rate} onChange={handleChangeRate} />
+      <div className="col s12 m4">
+        <span htmlFor="rate">Rate</span>
+        <input
+          id="rate"
+          type="number"
+          value={rate}
+          onChange={handleChangeRate}
+        />
+      </div>
 
-      <span for="time">Time</span>
-      <input id="time" type="number" value={time} onChange={handleChangeTime} />
+      <div className="col s12 m4">
+        <span htmlFor="time">Time</span>
+        <input
+          id="time"
+          type="number"
+          value={time}
+          onChange={handleChangeTime}
+        />
+      </div>
     </div>
   );
 }
